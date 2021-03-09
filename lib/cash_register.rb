@@ -12,10 +12,11 @@ class CashRegister
     else
       @total += price * quantity
     end
-
-  #  @total += price
   end
 
+  def apply_discount
+    
+  end
 
 
 
