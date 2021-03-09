@@ -20,8 +20,7 @@ class CashRegister
     #@total = @total*(100-discount)/100
 
     if discount != 0
-
-      @total = @total*(100-discount)/100
+      self.@total = @total*(100-discount)/100
       puts "After the discount, the total comes to $#{@total}."
     end
   end
