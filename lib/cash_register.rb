@@ -8,12 +8,12 @@ class CashRegister
   end
 
   def add_item (title, price, quantity = nil)
+    @items << title
     if quantity == nil
       @total += price
     else
       @total += price * quantity
     end
-    @items << title
   end
 
   def apply_discount
