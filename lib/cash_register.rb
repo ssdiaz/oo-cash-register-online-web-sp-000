@@ -19,7 +19,7 @@ class CashRegister
   #  @total = total_discount
     #@total = @total*(100-discount)/100
 
-    if discount != nil
+    if discount != 0
 
       disc_total = @total*(100-discount)/100
       puts "After the discount, the total comes to $#{disc_total}."
