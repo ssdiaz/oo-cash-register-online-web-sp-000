@@ -33,4 +33,13 @@ class CashRegister
     @items
   end
 
+  def void_last_transaction
+    @total.pop
+    @items.pop
+    if @items == nil
+        @total.clear
+    end
+
+  end
+
 end
