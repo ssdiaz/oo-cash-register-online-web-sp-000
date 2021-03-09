@@ -14,7 +14,11 @@ class CashRegister
       @items << title
     else
       @total += price * quantity
-      @items << title 
+
+      count = 0
+      until count == quantity
+        @items << title
+      end
     end
   end
 
