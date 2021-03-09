@@ -17,7 +17,7 @@ class CashRegister
         @items << title
       end
 
-      last_item = amount * quantity
+      last_item = price * quantity
   #  end
   end
 
