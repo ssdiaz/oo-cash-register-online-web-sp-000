@@ -15,9 +15,8 @@ class CashRegister
     else
       @total += price * quantity
       count = 0
-      until count == quantity
+      quantity.times do
         @items << title
-        count += 1
       end
     end
   end
