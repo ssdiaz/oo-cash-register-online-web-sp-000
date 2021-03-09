@@ -13,7 +13,7 @@ class CashRegister
       @total += price
     end
 
-    @total += price
+  #  @total += price
   end
 
 
