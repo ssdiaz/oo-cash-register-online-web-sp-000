@@ -39,8 +39,8 @@ class CashRegister
     #     @total.clear
     # end
 
-    if self.total == nil
-      self.total = 0.0
+    if @total == nil
+      @total = 0.0
     end
 
   end
