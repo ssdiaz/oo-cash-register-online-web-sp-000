@@ -19,7 +19,7 @@ class CashRegister
   #  @total = total_discount
     #@total = @total*(100-discount)/100
 
-    if discount != 0
+    if discount != nil
       self.total = (total * ((100.0 -discount.to_f)/100)).to_i
       "After the discount, the total comes to $#{self.total}."
     else
